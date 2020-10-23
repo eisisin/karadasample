@@ -1,0 +1,296 @@
+html{
+
+}
+
+/*全体の幅とか*/
+body {
+  width:auto;
+  height:auto;
+}
+/*タイトルの上部*/
+header{
+  height:90px;
+  border-bottom:solid 1px green ;
+}
+
+.header-top{
+  margin-top:30px;
+}
+.header_top p{
+  font-size:10px;
+  text-align:center;
+}
+
+.header_left{
+  display:inline-block;
+  margin-left: 15px;
+  background-color:;
+
+}
+
+.header_left a{
+  float:left;
+  margin-top:15px;
+  margin-left: auto;
+  text-decoration: none;
+
+}
+.header_left span{
+  color:orange;
+}
+.header_right{
+  float:right;
+  margin-top:0px;
+  margin-bottom:30px;
+  margin-right:15px;
+  display:inline-block;
+
+
+}
+.header_right span{
+  color:orange;
+}
+
+.header_right a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+/*タイトル*/
+
+.copy-container {
+  height:300;
+  background-color:green;
+　
+  padding-top: 10px;
+  padding-bottom:10px;
+  margin:0 auto;
+
+  background-image: url(https://www.pakutaso.com/shared/img/thumb/044sukagamino17103_TP_V.jpg);  /*背景画像指定*/
+  background-size: cover;　
+
+}
+
+.copy-container h1{
+  font-size:110px;
+  color:white;
+  text-align:center;
+
+  text-shadow    :
+         1px  1px 0px rgba(0, 0, 0, 0.16),
+        -1px  1px 0px rgba(0, 0, 0, 0.16),
+         1px -1px 0px rgba(0, 0, 0, 0.16),
+        -1px -1px 0px rgba(0, 0, 0, 0.16),
+         1px  0px 0px rgba(0, 0, 0, 0.16),
+         0px  1px 0px rgba(0, 0, 0, 0.16),
+        -1px  0px 0px rgba(0, 0, 0, 0.16),
+         0px -1px 0px rgba(0, 0, 0, 0.16);        /* 文字の影 */
+
+}
+.copy-container span{
+  color:orange;
+}
+.copy-container h2{
+  font-size:60px;
+  color:white;
+  text-align:center;
+
+  text-shadow    :
+         1px  1px 0px rgba(0, 0, 0, 0.16),
+        -1px  1px 0px rgba(0, 0, 0, 0.16),
+         1px -1px 0px rgba(0, 0, 0, 0.16),
+        -1px -1px 0px rgba(0, 0, 0, 0.16),
+         1px  0px 0px rgba(0, 0, 0, 0.16),
+         0px  1px 0px rgba(0, 0, 0, 0.16),
+        -1px  0px 0px rgba(0, 0, 0, 0.16),
+         0px -1px 0px rgba(0, 0, 0, 0.16);        /* 文字の影 */
+
+}
+
+/*コンテンツ*/
+.contents{
+  position:relative;
+
+}
+
+.contents-btn{
+  margin-top:15px;
+  margin-bottom:30px;
+  margin-right:15px;
+  margin-left:15px;
+  text-align:center;
+
+
+}
+
+.btn{
+  padding:12px 24px;
+  background-color:orange;
+  display:inline-block;
+  opacity:0.8;
+  font-size:20px;
+  border-radius:5px;
+  text-decoration: none;
+
+}
+.btn:hover{
+  opacity:0.3;
+}
+
+.btn_facebook{
+  padding:12px 24px;
+  background-color:#3b5998;
+  color:white;
+  display:inline-block;
+  opacity:0.8;
+  font-size:20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn_facebook:hover{
+  opacity:0.3;
+}
+.btn_twitter{
+  padding:12px 24px;
+  background-color:#55acee;
+  color:white;
+  display:inline-block;
+  opacity:0.8;
+  font-size:20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn_twitter:hover{
+  opacity:0.3;
+}
+
+.contents_under1{
+  text-align:center;
+
+}
+
+.contents_under2{
+  text-align: center;
+  display:block;
+
+}
+.contents_under2 h2{
+  font-size:40px;
+  color:brown;
+
+}
+
+.contents_under2 h3{
+  color:;
+}
+
+
+
+.contents_under2_p{
+  text-align: left;
+  display:inline-block;
+  margin-bottom: auto;
+
+}
+
+.contents_under2_p_menu{
+  font-size:20px;
+}
+
+/* cntents_under4はスタッフ紹介　*/
+.contents_under4{
+  height:auto;
+}
+.all_staffs{
+  text-align: center;
+}
+
+.all_staffs_p{
+  margin-top:50px;
+  font-size: 30px;
+
+}
+
+.staffs{
+  display:inline-block;
+  vertical-align: top;
+  width:25%;
+  margin-top:0px;
+  margin-right:20px;
+  margin-bottom:20px;
+  margin-left:20px;
+  text-align: center;
+
+}
+
+.staff_name{
+  font-size:30px;
+}
+
+
+.staff_pro{
+  width: 80%;
+  display:inline-block;
+  text-align: left;
+  margin-top:5px;
+  font-size:20px;
+  color: #b3aeb5;
+
+}
+
+.access_info{
+  text-align: center;
+  font-size:35px;
+}
+
+.access_info p{
+  font-size:15px;
+}
+
+.access_info_top{
+  text-align: left;
+  display:inline-block;
+  margin-bottom: auto;
+}
+
+.in_apart{
+  text-align: center;
+  display:inline-block;
+  vertical-align: top;
+  width:50%;
+  margin-top:0px;
+  margin-right:20px;
+  margin-bottom:40px;
+  margin-left:20px;
+
+}
+
+.in_apart_pho img{
+  width:250px;
+  height:250px;
+}
+
+.in_apart_pho p{
+  width:50%
+  text-align:center;
+}
+
+
+/*-- フッター --*/
+.footer{
+  width:100%;
+  height:;
+  background-color:gray;
+
+  top:700px;
+  bottom:0;
+  text-align: center;
+}
+
+.footer a{
+  text-decoration: none;
+  color:white;
+}
